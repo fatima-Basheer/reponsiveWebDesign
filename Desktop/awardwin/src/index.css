@@ -1,0 +1,37 @@
+.banner-text {
+  font-weight: 600;
+  font-size: 5rem;
+  color: #585454;
+  
+}
+
+.value-text-responsive {
+  font-weight: 600;
+  color: #444;
+  font-size: 24px;
+
+}
+
+#title-service-l {
+font-weight: 500;
+}
+
+#title-service-2{
+  font-weight: 500;
+}
+
+#title-service-3{
+  font-weight: 500;
+}
+
+#title-service-4{
+  font-weight: 500;
+}
+
+.textColor {
+  color: #f6eded;
+}
+
+.value-text-responsive {
+  color: #7d7c7c;
+}
