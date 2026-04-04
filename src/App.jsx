@@ -2,6 +2,9 @@ import { useState, useEffect } from "react";
 import { useProgress } from "@react-three/drei";
 import { ReactLenis } from "lenis/react";
 import Navbar from "./sections/Navbar";
+import About from "./sections/About";
+import ServiceSummary from "./sections/ServiceSummary";
+import Services from "./sections/Services";
 import AnimatedHeaderSection from "./components/AnimatedHeaderSection";
 import Hero from "./sections/Hero";
 import "./App.css";
@@ -30,14 +33,18 @@ function App() {
     //   <div
     //     className={`%{isReady ? "opacity-100":"opacity-0"} transition-opacity duration-1000`}
     //   >
-      //............................................
+    //............................................
     //   </div>
     // </ReactLenis>
     <>
-    <Navbar />
-    <Hero/>
+      <Navbar />
+
+      <Hero />
+
+      <ServiceSummary />
+      <Services />
+      <About />
     </>
-      
   );
 }
 
